@@ -1,0 +1,13 @@
+header{
+    position: sticky;
+    z-index: 100;
+    top: 0; 
+    background-color: rgb(48, 34, 34);
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+.nav {
+    flex-direction: row-reverse;
+  }
