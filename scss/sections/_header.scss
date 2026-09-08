@@ -3,11 +3,37 @@ header{
     z-index: 100;
     top: 0; 
     background-color: rgb(48, 34, 34);
-    padding: 16px;
+    padding:8px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
+    
 }
 .nav {
     flex-direction: row-reverse;
+    height: 20px;
+    margin-top: 10px;
   }
+.nav-link{
+    color: #ff4500;
+}
+.nav-link:hover{
+    color: #d63d06;
+}
+.nav-link.active {
+    background-color: #ff4500;
+}
+
+.logo{
+    height: 50px;
+}
+.logo-lightning{
+    color: #ff4500;
+}
+
+.nav-pills .nav-link.active{
+    background-color:   #ff4500;
+}
+.nav-pills .nav-link.active:hover{
+    background-color:   #d63d06;
+}

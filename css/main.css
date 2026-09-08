@@ -86,8 +86,23 @@
 }
 
 .hero {
-  padding: 40px;
+  width: 100%;
+  height: 500px;
+  padding: 50px;
   margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero-back.webp);
+  background-size: cover;
+  color: white;
+  padding-right: 800px;
+}
+
+#hero-title {
+  color: white;
+}
+
+.lead {
+  font-size: 24px;
+  text-shadow: 1px 1px 2px black;
 }
 
 header {
@@ -95,7 +110,7 @@ header {
   z-index: 100;
   top: 0;
   background-color: rgb(48, 34, 34);
-  padding: 16px;
+  padding: 8px 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   color: white;
@@ -103,6 +118,36 @@ header {
 
 .nav {
   flex-direction: row-reverse;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #ff4500;
+}
+
+.nav-link:hover {
+  color: #d63d06;
+}
+
+.nav-link.active {
+  background-color: #ff4500;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo-lightning {
+  color: #ff4500;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ff4500;
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: #d63d06;
 }
 
 .forma {
@@ -117,8 +162,17 @@ form input {
   margin-bottom: 10px;
 }
 
-footer p {
-  background-color: rgb(185, 168, 168);
+.btn {
+  background-color: #ff4500;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #d63d06;
+}
+
+.text-body-secondary {
+  background-color: rgb(48, 34, 34);
   color: white;
   margin: 0 auto;
 }
