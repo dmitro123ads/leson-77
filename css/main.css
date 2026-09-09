@@ -5,6 +5,27 @@
   margin: 0 auto;
 }
 
+.price .btn {
+  color: white;
+}
+
+.yes i {
+  color: #ff4500;
+}
+
+.no {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card-body {
+  background-color: rgb(27, 19, 19);
+  color: white;
+}
+
+.text-bg-primary {
+  background-color: #ff4500;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -85,6 +106,10 @@
   display: block !important;
 }
 
+main {
+  background-color: rgb(48, 34, 34);
+}
+
 .hero {
   width: 100%;
   height: 500px;
@@ -103,6 +128,15 @@
 .lead {
   font-size: 24px;
   text-shadow: 1px 1px 2px black;
+}
+
+.btn-outline-secondary {
+  color: white;
+}
+
+.time {
+  padding: 0px;
+  margin: 10px;
 }
 
 header {
@@ -153,9 +187,10 @@ header {
 .forma {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 40px;
+  padding: 60px 140px;
   background-color: rgb(48, 34, 34);
   color: white;
+  gap: 20px;
 }
 
 form input {
@@ -171,8 +206,53 @@ form input {
   background-color: #d63d06;
 }
 
+.form-title {
+  font-size: 44px;
+}
+
+.form-info {
+  font-size: 20px;
+}
+
+.forma i {
+  color: #ff4500;
+  margin-right: 6px;
+}
+
+.form-guide {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+form {
+  background-color: rgb(27, 19, 19);
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 .text-body-secondary {
-  background-color: rgb(48, 34, 34);
+  background-color: rgb(27, 19, 19);
   color: white;
   margin: 0 auto;
+}
+
+.trainer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 150px;
+}
+
+.trainer-card {
+  color: white;
+  background-color: rgb(27, 19, 19);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.trainer-card img {
+  width: 100%;
+}
+
+.trainer-job {
+  color: #ff4500;
 }

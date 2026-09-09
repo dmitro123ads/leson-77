@@ -1,0 +1,19 @@
+.trainer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 150px;
+    
+}
+.trainer-card{
+    color: white;
+    background-color: rgb(27, 19, 19);
+    border-radius: 8px;
+    text-align: center;
+}
+.trainer-card img{
+    width: 100%;
+}
+.trainer-job{
+    color: #ff4500;
+}
