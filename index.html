@@ -32,81 +32,84 @@
   <main>
     <div class="col-lg-6 hero">
       <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 " id="hero-title">
-        Responsive left-aligned hero with image
+        Змініть своє тіло та розум
       </h1>
       <p class="lead">
-        Quickly design and customize responsive mobile-first sites with
-        Bootstrap, the world’s most popular front-end open source toolkit,
-        featuring Sass variables and mixins, responsive grid system,
-        extensive prebuilt components, and powerful JavaScript plugins.
+        Професійне обладнання, кваліфіковані тренери та індивідуальні програми тренувань для досягнення ваших цілей.
       </p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-          Primary
+          Обрати абонимент
         </button>
         <button type="button" class="btn btn-outline-secondary btn-lg px-4 hero-btn">
-          Default
+          Дізнатися більше
         </button>
       </div>
     </div>
 
     <div class="row mb-3 text-center time">
-      <div class="col-md-4 themed-grid-col time">
-        <h2>1500+ </h2>
-        <p>Активних членів</p>
+
+      <div class="statistics">
+        <div>
+          <h2>1500+</h2>
+          <p>Активних членів</p>
+        </div>
+        <div>
+          <h2>20+</h2>
+          <p>Досвідчених тренерів</p>
+        </div>
+        <div>
+          <h2>50+</h2>
+          <p>Тренажерів</p>
+        </div>
+        <div>
+          <h2>24/7</h2>
+          <p>Доступ до залу</p>
+        </div>
       </div>
-      <div class="col-md-4 themed-grid-col time">
-        <h2>20+</h2>
-        <p>Досвідчених тренерів</p>
-      </div>
-      <div class="col-md-4 themed-grid-col time">
-        <h2>50+
-        </h2>
-        <p>Тренажерів</p>
+
+    </div>
+
+    <div class="main">
+      <h2>Наші Послуги</h2>
+      <p>Все необхідне для вашого прогресу в одному місці</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <i class="bi bi-heart-pulse"></i>
+            <div class="card-body">
+              <h5 class="card-title">Кардіо-зона</h5>
+              <p class="card-text">
+                Сучасні бігові доріжки, велотренажери та орбітреки з моніторингом пульсу.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <i class="bi bi-person-arms-up"></i>
+            <div class="card-body">
+              <h5 class="card-title">Силові тренування
+              </h5>
+              <p class="card-text"> Вільні ваги, гантельний ряд до 50 кг та професійні силові станції.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <i class="bi bi-people"></i>
+            <div class="card-body">
+              <h5 class="card-title">Групові заняття
+              </h5>
+              <p class="card-text">Йога, пілатес, кросфіт, TRX та сайклінг під керівництвом інструктора.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container px-4 py-5" id="featured-3">
-      <h2 class="pb-2 border-bottom">Наші послуги</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col">
-          <h3 class="fs-2 text-body-emphasis">Кардіо-зона</h3>
-          <p>
-
-            Сучасні бігові доріжки, велотренажери та орбітреки з моніторингом пульсу.
-          </p>
-
-        </div>
-        <div class="feature col">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-            <svg class="bi" width="1em" height="1em" aria-hidden="true">
-              <use xlink:href="#people-circle"></use>
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis">Силові тренування </h3>
-          <p>
-
-            Вільні ваги, гантельний ряд до 50 кг та професійні силові станції.
-          </p>
-        </div>
-        <div class="feature col">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-            <svg class="bi" width="1em" height="1em" aria-hidden="true">
-              <use xlink:href="#toggles2"></use>
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis"> Групові заняття</h3>
-          <p>
-
-            Йога, пілатес, кросфіт, TRX та сайклінг під керівництвом інструктора.
-          </p>
-        </div>
-      </div>
-    </div>
     <secrion class="trainers">
-      <h2>Наші тренери</h2>
+      <h2 class="section-name">Наші тренери</h2>
       <div class="trainer-grid">
         <article class="trainer-card">
           <img src="./img/trainer1.webp" alt="">
@@ -134,6 +137,7 @@
         </article>
       </div>
     </secrion>
+    <h2 class="section-name">Абонименти</h2>
     <div class="row mb-3 text-center price">
       <div class="col-md-4 themed-grid-col">
         <div class="col">
@@ -171,11 +175,11 @@
               <ul class="list-unstyled mt-3 mb-4">
                 <li class="yes"><i class="bi bi-check2"></i> Безлімітний доступ 24/7</li>
                 <li class="yes"><i class="bi bi-check2"></i> Тренажерний зал</li>
-                <li class="yes"><i class="bi bi-check2"></i> Безкоштовна шафка  </li>
+                <li class="yes"><i class="bi bi-check2"></i> Безкоштовна шафка </li>
                 <li class="no"><i class="bi bi-x-lg"></i> Персональний тренер</li>
               </ul>
               <button type="button" class="w-100 btn btn-lg btn-primary">
-               обрати
+                обрати
               </button>
             </div>
           </div>
@@ -194,7 +198,7 @@
               <ul class="list-unstyled mt-3 mb-4">
                 <li class="yes"><i class="bi bi-check2"></i> Безліміт 24/7 + Фінська сауна </li>
                 <li class="yes"><i class="bi bi-check2"></i> Усі групові програми</li>
-                <li class="yes"><i class="bi bi-check2"></i>  4 тренування з тренером </li>
+                <li class="yes"><i class="bi bi-check2"></i> 4 тренування з тренером </li>
                 <li class="yes"><i class="bi bi-check2"></i> Заморозка на 14 днів</li>
               </ul>
               <button type="button" class="w-100 btn btn-lg btn-primary">
@@ -204,7 +208,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
     </div>
     <section class="forma">

@@ -240,6 +240,7 @@ form {
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   padding: 150px;
+  padding-top: 40px;
 }
 
 .trainer-card {
@@ -247,6 +248,8 @@ form {
   background-color: rgb(27, 19, 19);
   border-radius: 8px;
   text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .trainer-card img {
@@ -255,4 +258,52 @@ form {
 
 .trainer-job {
   color: #ff4500;
+}
+
+.section-name {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  margin-top: 20px;
+}
+
+.card-title1 {
+  font-size: 60px;
+  width: 650px;
+}
+
+.badge {
+  background-color: #f74003;
+  border: none;
+  border-radius: 3px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: flex-start;
+  gap: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: #212529;
+  color: #f74003;
+  padding-top: 10px;
+}
+
+.main {
+  text-align: center;
+  background-color: #212529;
+  color: white;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+main i {
+  font-size: 36px;
+  color: #c33b0e;
+  margin-bottom: 10px;
 }
